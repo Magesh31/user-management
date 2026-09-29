@@ -1,4 +1,27 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# React dependencies
+/my-app/node_modules/
+/my-app/build/
 
-# dependencies
-/my-app/node_modules
+# React environment files
+/my-app/.env
+/my-app/.env.local
+
+# Python virtual environment
+/backend/venv/
+__pycache__/
+*.py[cod]
+
+# Python environment files
+/backend/.env
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
